@@ -23,17 +23,3 @@
         run: run
     };
 })(window);
-
-mm.define('a', function() {
-    return {'aa': 'bb'};
-});
-
-mm.define('b', function() {
-    var a = mm.require('a');
-    return {'bb': 'cc'+a.aa};
-});
-
-mm.run(function() {
-    var b = mm.require('b');
-    console.log(b);
-});
