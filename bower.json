@@ -1,0 +1,17 @@
+{
+  "name": "mm.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/omegascorp/mm.js",
+  "description": "Micro Modules - very simple node.js-like modules inplementation",
+  "main": "src/mm.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "modules"
+  ],
+  "authors": [
+    "omegascorp (https://github.com/omegascorp)"
+  ],
+  "license": "MIT"
+}
