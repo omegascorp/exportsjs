@@ -14,12 +14,8 @@
     function define(name, callback) {
         callbacks[name] = callback;
     }
-    function run(callback) {
-        callback(require);
-    }
     window.mm = {
         define: define,
-        require: require,
-        run: run
+        require: require
     };
 })(window);
